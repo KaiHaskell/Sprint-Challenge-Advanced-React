@@ -31,3 +31,32 @@
     transform: rotate(360deg);
   }
 }
+.card-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.App h1,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body-custom {
+  width: 150px;
+  background-color: lightgrey;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
+.dark-mode .navbar {
+  background-color: #1f2022;
+  border: none;
+}
