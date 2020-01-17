@@ -1,6 +1,7 @@
 import React from "react";
 
 const PlayerList = ({ players }) => {
+  console.log(players);
   return (
     <div className="card-custom">
       {players.map(player => (

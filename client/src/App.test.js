@@ -1,7 +1,6 @@
 import React from "react";
 import * as rtl from "@testing-library/react";
 import App from "./App";
-import "@testing-library/jest-dom/extend-expect";
 
 it("renders without crashing", () => {
   const title = rtl.render(<h1>Women's World Cup Soccer</h1>);

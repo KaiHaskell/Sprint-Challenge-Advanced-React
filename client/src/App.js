@@ -22,6 +22,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <NavBarBasic />
+        <h1>Women's World Cup Soccer</h1>
+        <h2>Player Data</h2>
         <div className="player-list">
           <PlayerList players={this.state.players} />
         </div>
